@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
     {
         $faker = Faker::create();
 
-        foreach (range(1, 50) as $index) { // Генерируем 50 пользователей
+        foreach (range(1, 50) as $index) {
             DB::table('users')->insert([
                 'fio' => $faker->name,
                 'email' => $faker->unique()->safeEmail,
