@@ -10,3 +10,5 @@
 -  ```docker-compose exec app php artisan migrate```
 -  ```docker-compose exec app php artisan db:seed --class=UsersTableSeeder```
 -  ```docker-compose exec app php artisan db:seed --class=ClientsTableSeeder```
+
+- Пароль для всех пользователей "1234"
